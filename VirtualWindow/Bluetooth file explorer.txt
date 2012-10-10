@@ -1,0 +1,13 @@
+//things to do
+1) research how to read media file byte by byte and display those bytes to media (just use any sort
+of media framwork because I will develope this in android again anyways)
+
+Phone side idea
+1. Detect file hierachy
+2. Provide user name and password
+	2A. Once it's correct, remember password and username and display
+2. Download file to view  .jpg, .png, .txt, .pdf
+3. Stream video, music. But user can decide to download it
+	3A. Stream and book mark video
+	3B. Video subtitles
+	3C. 

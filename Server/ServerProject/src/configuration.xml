@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd" [
+<!ENTITY contextInclude SYSTEM "org/springframework/web/portlet/context/WEB-INF/contextInclude.xml">
+]>
+
+<beans>
+    
+    <!-- ID is the reference to this bean | If scope is not defined, it is singleton in default = singleton or prototype -->
+    <bean id="wifiServer" class="org.jason.server.WifiServer" scope="singleton" destroy-method="destructor">
+        
+        <!-- passing parameter to the constructor -->
+        <constructor-arg index="0" value="wifi"></constructor-arg>
+        <constructor-arg index="1" value="Jason Shin"></constructor-arg>
+        
+        <!-- Sets a value of port variable -->
+        <property name="port" value="9999" />
+        
+    </bean>
+    
+    <bean id="udpServerSocketImpl" class="org.jason.server.UDPServerSocketImpl" scope="singleton" destroy-method="killThread">
+        
+    </bean>
+    
+    <bean class="org.jason.server.BeanFactoryPostProcessor"></bean>
+</beans>

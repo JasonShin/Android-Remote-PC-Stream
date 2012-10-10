@@ -1,0 +1,12 @@
+#Mon Oct 08 15:26:46 EST 2012
+logcat.view.colsize.Text=543
+logcat.view.colsize.TID=50
+logcat.view.colsize.Level=29
+ddms.logcat.automonitor.userprompt=true
+logcat.view.colsize.Application=143
+logcat.view.colsize.PID=50
+logcat.view.colsize.Tag=139
+ddms.logcat.auotmonitor.level=error
+logcat.view.colsize.Time=130
+eclipse.preferences.version=1
+logcat.view.filters.list=name\: 'video', tag\: 'v', text\: '', pid\: '', app\: '', level\: 'info', name\: 'vidNew', tag\: 'vv', text\: '', pid\: '', app\: '', level\: 'info', name\: 'Test', tag\: 't', text\: '', pid\: '', app\: '', level\: 'error', name\: 'Med', tag\: 'm', text\: '', pid\: '', app\: '', level\: 'error', name\: 'result', tag\: 'r', text\: '', pid\: '', app\: '', level\: 'error', name\: 'VideoControl', tag\: 'vd', text\: '', pid\: '', app\: '', level\: 'verbose', name\: 'Server', tag\: 'ser', text\: '', pid\: '', app\: '', level\: 'error', name\: 'BoradCast', tag\: 'bc', text\: '', pid\: '', app\: '', level\: 'error', name\: 'Zero', tag\: 'z', text\: '', pid\: '', app\: '', level\: 'error', name\: 'newbc', tag\: 'nbc', text\: '', pid\: '', app\: '', level\: 'verbose', 

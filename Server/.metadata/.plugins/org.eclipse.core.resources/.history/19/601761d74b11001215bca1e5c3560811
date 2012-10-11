@@ -1,0 +1,12 @@
+package org.jason.network.model;
+
+import java.io.IOException;
+import java.net.SocketException;
+
+public interface ServerSocket {
+
+	public void setupSocket() throws SocketException;
+	public void sendData(byte[] buffer) throws IOException;
+	public void killThread();
+	
+}

@@ -1,4 +1,0 @@
-INDEX VERSION 1.126+F:\Java\JavaStreamer\ProjectXTream\VirtualWindow\.metadata\.plugins\org.eclipse.jdt.core
-3801164461.index
-2458610284.index
-4274312112.index
